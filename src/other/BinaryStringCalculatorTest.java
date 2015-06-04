@@ -36,4 +36,12 @@ public class BinaryStringCalculatorTest {
     String expected = "11111111111111111111111111111111111111111111111111111110";
     assertEquals(expected, BinaryStringCalculator.add(s1, s2));
   }
+
+  @Test
+  public void anotherBigString() {
+    String s1 = "10101010101010101010101010";
+    String s2 = "11111111111111111111111111";
+    String expected = "110101010101010101010101001";
+    assertEquals(expected, BinaryStringCalculator.add(s1, s2));
+  }
 }

@@ -44,4 +44,12 @@ public class BinaryStringCalculatorTest {
     String expected = "110101010101010101010101001";
     assertEquals(expected, BinaryStringCalculator.add(s1, s2));
   }
+
+  @Test
+  public void emptyString() {
+    String s1 = "101";
+    String s2 = "";
+    String expected = "101";
+    assertEquals(expected, BinaryStringCalculator.add(s1, s2));
+  }
 }

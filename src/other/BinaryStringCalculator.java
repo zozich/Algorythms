@@ -9,28 +9,9 @@ public class BinaryStringCalculator {
     StringBuilder result = new StringBuilder();
     for (int i = 0; i < maxLength; i++) {
       int currentCount = getIntValue(s1, s1.length() - i - 1) + getIntValue(s2, s2.length() - i - 1) + remainder;
-      switch (currentCount) {
-        case 3: {
-          result.append(1);
-          remainder = 1;
-          continue;
-        }
-        case 2: {
-          result.append(0);
-          remainder = 1;
-          continue;
-        }
-        case 1: {
-          result.append(1);
-          remainder = 0;
-          continue;
-        }
-        case 0: {
-          result.append(0);
-          remainder = 0;
-        }
-      }
-
+      remainder = currentCount > 1 ? 1 : 0;
+      int appender = currentCount % 2 == 0 ? 0 : 1;
+      result.append(appender);
     }
     if (remainder == 1) {
       result.append(1);

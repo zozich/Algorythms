@@ -2,6 +2,8 @@ package other;
 
 public class BinaryStringCalculator {
 
+  public static void main(String[] args) {
+  }
 
   public static String add(String s1, String s2) {
     int maxLength = s1.length() > s2.length() ? s1.length() : s2.length();

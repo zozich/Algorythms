@@ -3,9 +3,6 @@ package prometheus;
 import java.util.Arrays;
 import java.util.Collections;
 
-/**
- * Created by Andrew on 03.03.2015.
- */
 public class TempStorage
 {
     public static void main(String[] args)

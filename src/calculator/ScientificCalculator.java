@@ -5,9 +5,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 
-/**
- * Created by Andrew on 02.03.2015.
- */
 public abstract class ScientificCalculator {
   private static Number number1;
   private static Number number2;

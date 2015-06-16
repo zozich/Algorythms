@@ -2,9 +2,6 @@ package calculator;
 
 import java.math.BigInteger;
 
-/**
- * Created by Andrew on 03.03.2015.
- */
 public abstract class Calculation {
 
     public static String calculate(Number number1, Number number2, String operand) {

@@ -4,14 +4,6 @@ import java.util.*;
 
 public class Permutation {
 
-    public static void main(String[] args) {
-        Permutation permutation = new Permutation();
-        permutation.permute(new int[]{1, 1});
-        for (List<Integer> list : permutation.result) {
-            System.out.println(list);
-        }
-    }
-
     private List<List<Integer>> result = new ArrayList<List<Integer>>();
 
     public List<List<Integer>> permute(int[] nums) {

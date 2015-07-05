@@ -6,9 +6,6 @@ import java.math.BigInteger;
 import java.util.Map;
 import java.util.TreeMap;
 
-/**
- * Created by Alex on 19.02.2015.
- */
 public class Karatsuba
 {
     private static Map<BigInteger, Integer> map = new TreeMap<BigInteger, Integer>();

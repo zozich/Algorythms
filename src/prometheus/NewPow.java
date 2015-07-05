@@ -1,8 +1,5 @@
 package prometheus;
 
-/**
- * Created by VisitorW on 3/17/15.
- */
 public class NewPow {
     public static void main (String[] args) {
         System.out.println(startPow(2, 8));
